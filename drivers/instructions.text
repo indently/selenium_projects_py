@@ -1,0 +1,5 @@
+Before running on Mac
+
+Before running your program, make sure you run both
+"chromedriver.exe" and "Google Chrome" at least once
+to remove the unverified author security message.
