@@ -19,9 +19,12 @@ class Browser:
 
 
 if __name__ == '__main__':
-    browser = Browser('drivers/chromedriver')
+    browser = Browser('YOUR_DRIVER_PATH')
+
     browser.open_page('https://www.google.com')
     time.sleep(3)
+
     browser.open_page('https://pycontent.com/')
     time.sleep(3)
+
     browser.close_browser()
